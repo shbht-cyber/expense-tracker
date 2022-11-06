@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: rgb(154, 197, 200);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,11 +65,11 @@ h4 {
 }
 
 .money.plus {
-  color: #2ecc71;
+  color: green;
 }
 
 .money.minus {
-  color: #c0392b;
+  color: red;
 }
 
 label {
@@ -89,7 +89,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #3a44a5;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
